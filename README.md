@@ -4,33 +4,91 @@
 
 To design a web application for a standard calculator.
 
-## DESIGN STEPS:
+### DESIGN STEPS:
+## Step 1:
+Clone the github repository and create Django admin interface.
 
-### Step 1:
+## Step 2:
+Change settings.py file to allow request from all hosts.
 
+## Step 3:
+Use CSS for creating attractive colors.
 
-### Step 2:
+## Step 4:
+Write JavaScript program for implementing five different operations.
 
-
-### Step 3:
-
-
-### Step 4:
-
-
-### Step 5:
-
-### Step 6:
-
+## Step 5:
 Validate the HTML and CSS code.
 
-### Step 6:
-
+## Step 6:
 Publish the website in the given URL.
 
+
+
 ## PROGRAM :
+``` 
+calc.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="/static/css/style.css">
+   <title>Calculator</title>
+</head>
+
+<body>
+   <div class="container">
+       <h1>Calculator</h1>
+
+       <div class="calculator">
+           <input type="text" name="screen" id="screen">
+           <table>
+               <tr>
+                   <td><button>(</button></td>
+                   <td><button>)</button></td>
+                   <td><button>C</button></td>
+                   <td><button>%</button></td>
+               </tr>
+               <tr>
+                   <td><button>7</button></td>
+                   <td><button>8</button></td>
+                   <td><button>9</button></td>
+                   <td><button>X</button></td>
+               </tr>
+               <tr>
+                   <td><button>4</button></td>
+                   <td><button>5</button></td>
+                   <td><button>6</button></td>
+                   <td><button>-</button></td>
+               </tr>
+               <tr>
+                   <td><button>1</button></td>
+                   <td><button>2</button></td>
+                   <td><button>3</button></td>
+                   <td><button>+</button></td>
+               </tr>
+               <tr>
+                   <td><button>0</button></td>
+                   <td><button>.</button></td>
+                   <td><button>/</button></td>
+                   <td><button>=</button></td>
+               </tr>
+           </table>
+       </div>
+   </div>
+
+</body>
+<script src="/static/js/index.js"></script>
+</html>
+```
 
 ## OUTPUT:
+![image](https://github.com/SivaMohan-cloud/standard-calculator/assets/121418870/01b2a3aa-5b5e-492c-a6ce-1b21a4ad5eb2)
+
 
 ## Result:
+The program for designing a simple calculator using javascript is executed successfully.
 
